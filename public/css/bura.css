@@ -1,0 +1,24 @@
+.centered {
+    position: absolute; /* or fixed, depending on your needs */
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Optional: Set a width and height */
+    width: auto;
+    height: 200px;
+    padding-top: none;
+    
+    
+    /* Just for visibility */
+  }
+.centered .image{
+    width: auto;
+    height: 250px;
+    justify-content: center;
+   
+
+}
+body{
+   
+    border-shadow: 3px 3px 5px;
+}
